@@ -1,0 +1,221 @@
+
+body{
+	background-color: #fff;
+	font-family: helvetica, arial, sans-serif;
+}
+
+
+nav{
+	margin: auto;
+	padding: 10px;
+	border: 10px;
+	background-color: ;
+	
+}
+
+.left{
+	margin: 10px;
+	
+}
+
+.right{
+	margin: 10px;
+	text-align: center;
+
+
+}
+
+#toptxt1{
+	margin-top: 5px;
+    position: absolute;
+    right: 190px;
+
+}
+
+#toptxt2{
+	margin-top: 5px;
+    position: absolute;
+    right: 140px;
+
+}
+
+#topleft{
+	position: absolute;
+	left: 0px;
+}
+
+#topright{
+	position: absolute;
+	right: 0px;
+}
+
+main{
+	text-align: center;
+	margin: auto;
+	margin-top: 150px;
+
+
+}
+
+img{
+	display: block;
+	margin: auto;
+	width: 20%;
+	height: 20%;
+
+}
+
+.rimg{
+	display: inline;
+	width:40px;
+	height:40px;
+	position: absolute;
+}
+
+#hw1{
+	height: 20px;
+	width: 20px;
+	top: 5px;
+	right: 120px;
+}
+
+#hw2{
+	height: 30px;
+	width: 30px;
+	top: 0px;
+	right: 75px;
+	border-radius: 50%;
+	
+}
+
+#hw3{
+	width: 40px;
+	height: 40px;
+	top: -5px;
+	right: 20px;
+	border-radius: 50%;
+	
+}
+
+#amic{
+	position: absolute;
+	right: 5px;
+	top: 6px;
+	margin: auto;
+	height: 13px;
+	width: 20px;
+	background-color: white;
+
+}
+
+#mic{
+	
+	margin: auto;
+	display: block;
+	width: 13px;
+	height: 20px;
+	clear: both;
+
+
+
+}
+
+a{
+	text-decoration-line: none;
+}
+
+a:hover{
+	text-decoration-line: underline;
+}
+
+#src{
+	position: relative;
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	width: 400px;
+	height: 30px;
+	background-color: white;
+	border: silver 1px solid;
+	padding: 2px;
+	box-shadow: silver 0px 3px 10px
+	
+	
+}
+
+input{
+	display: block;
+	width: 375px;
+	height: 30px;
+	border: none;
+
+	
+}
+
+
+
+button{
+	margin: auto;
+	text-align:center;
+	background-color: #eee;
+	height: 30px;
+	color: grey;
+	border: solid 1px silver;
+	margin: 7px;
+	font-size: 12px;
+
+
+}
+
+button:active{
+	background-color: silver;
+}
+
+footer{
+	margin: auto;
+	background-color: yellow;
+
+
+}
+
+#bleft{
+	position: absolute;
+	left: 5px;
+	bottom: 0px;
+	margin: 10px;
+
+}
+
+#bleft a {
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+
+#bright{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	margin: 10px;
+}
+
+#bright a{
+	margin-right: 20px;
+	margin-left: 10px;
+}
+a{
+	font-size: 12px;
+	color: grey;
+}
+
+#ft{
+	background-color:#EEE ;
+	height: 40px;
+	border-top: solid 1px silver;
+	right: 0px;
+	left: 0px;
+	position: absolute;
+	bottom: 0px;
+	z-index: -1
+
+}
